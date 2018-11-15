@@ -30,7 +30,7 @@ public class NodeCollection implements Node {
 		collection = new ArrayList<Node>();
 
 	}
-// This doesn't return any information but just adds a new node which is like a string
+// This doesn't return any information but just adds a new node which is like a string, it's of type Node and passing node
 	public void add(Node node) {
 		collection.add(node);
 	}
